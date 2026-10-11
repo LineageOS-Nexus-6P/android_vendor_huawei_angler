@@ -8524,6 +8524,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libril-qc-qmi-1.so",
             ],
             shared_libs: [
+                "libangler_dsi_netctrl_compat",
                 "libaudioclient_legacy_shim",
                 "libdsutils",
                 "liblog",
